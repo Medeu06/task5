@@ -8,17 +8,17 @@ export default function AboutPage() {
       
       <div className="space-y-3 text-xs text-slate-300 leading-relaxed">
         <p>
-          <strong>DevTask Hub</strong> — интерактивный менеджер задач для IT-команд, разработанный в рамках задания <strong>ТСИС5</strong> по предмету «React JS Frameworks».
+          <strong>DevTask Hub</strong> — интерактивный менеджер задач для IT-команд.
         </p>
         <p>
-          Проект демонстрирует переход от одностраничной компоненции ТСИС4 к полноценной многостраничной архитектуре с ленивой загрузкой модулей (`React.lazy`), вложенными маршрутами (`RootLayout`, `Outlet`), динамическими параметрами и сохранением состояния в URL.
+          Проект демонстрирует переход от одностраничной компоненции к полноценной многостраничной архитектуре с ленивой загрузкой модулей (`React.lazy`), вложенными маршрутами (`RootLayout`, `Outlet`), динамическими параметрами и сохранением состояния в URL.
         </p>
       </div>
 
       <div className="bg-slate-900/80 p-5 rounded-xl border border-slate-800 text-xs space-y-2 text-slate-300">
         <h3 className="font-bold text-indigo-400 mb-2">Информация об авторе и стеке:</h3>
         <div><strong>Студент:</strong> Медеу Сейдали</div>
-        <div><strong>Курс:</strong> React JS Frameworks / IT Business Architecture</div>
+        <div><strong>Курс:</strong> React JS Frameworks </div>
         <div><strong>Технологии:</strong> React 18, React Router v6, Tailwind CSS, Vite, LocalStorage Fake API</div>
         <div><strong>Функционал ТСИС5:</strong> 7 ключевых роутов, useSearchParams, useParams, Dashboard с 4+ метриками, lazy loading страниц.</div>
       </div>
