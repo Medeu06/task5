@@ -83,7 +83,7 @@ export default function TaskListPage() {
       setToast(`Статус задачи ${targetId} изменен!`);
     } catch (err) {
       alert(`Ошибка обновления: ${err.message}`);
-    } flex {
+    } finally {
       setActionLoadingId(null);
     }
   };
